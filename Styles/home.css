@@ -1,0 +1,97 @@
+@media (max-width: 864px) {
+    body {
+        background: url(../Imgs/backgroundmobile.jpg);
+        background-size: contain;
+        background-position: top;
+        background-color: #21204b;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 864px) {
+    body {
+        background: url(../Imgs/background.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
+
+.main {
+    background-color: white;
+}
+
+.welc {
+    padding-bottom: 70vh;
+    color:  #e20000;
+}
+
+.links > .navspace > a {
+    color: #e20000;
+}
+
+.dropdown .dropbtn {
+    color: #e20000;
+}
+
+.welc h2, h6 {
+    margin: 20px;
+}
+
+.recentphotostext{
+    text-align: left;
+    margin: 0px 14px;
+    padding-bottom: 10px;
+    width: 96.6%;
+}
+
+.imgbox {
+    background-color: white;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width: 100%;
+    margin: auto;
+}
+
+.images {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.images>img {
+    width: 30%;
+    height: 10%;
+    margin: auto;
+}
+
+.images>div {
+    width: 29%;
+    padding: 1%;
+    padding-top: 0px;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.images {
+    text-align: center;
+}
+
+.images a {
+    text-decoration: none;
+    color: rgb(255, 83, 83);
+}
+
+.images a:hover {
+    font-weight: bolder;
+    font-style: italic;
+    color: red;
+}
+
+.events embed{
+    width: 100vw;
+    height: 40vh;
+}

@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.welc {
+    font-size: 1.85em;
+    text-align: center;
+    margin-top: 20vh;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ytvids {
+	display: none;
+    justify-content: center;
+}
+
+.ytvids .titles {
+    display: flex;
+    margin: auto;
+}
+
+.ytvids .titles > p{
+    text-align: center;
+    width: 50%;
+}
+
+.insta iframe {
+    height: 600px;
+}
+
+iframe {
+    height: 400px;
+}

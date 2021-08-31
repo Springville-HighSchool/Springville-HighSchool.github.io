@@ -1,0 +1,21 @@
+body {
+    background: url(../Imgs/banner.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #21204b;
+}
+
+.welc {
+    padding-top: 20px;
+    padding-bottom: 70vh;
+    color:  #e20000;
+}
+
+.links > .navspace > a {
+    color: #e20000;
+}
+
+.dropdown .dropbtn {
+    color: #e20000;
+}
+

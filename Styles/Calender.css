@@ -1,0 +1,10 @@
+.calender {
+    width: 80vw;
+    height: 60vh;
+    margin: auto;
+}
+
+.calender embed {
+    width: 100%;
+    height: 100%;
+}

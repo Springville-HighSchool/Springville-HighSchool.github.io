@@ -1,0 +1,15 @@
+.topnav .navspace > a {
+    border-bottom: 0px solid black;
+}
+
+.topnav .navspace > a:hover, .topnav .navbar button:hover {
+    border-bottom: 4px solid black;
+}
+
+.topnav .navspace > a:hover, .topnav .dropdown:hover {
+    border-bottom: 4px solid black;
+}
+
+.topnav .dropdown {
+    border-bottom: 0px solid black;
+}
