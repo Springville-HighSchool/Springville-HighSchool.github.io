@@ -11,7 +11,8 @@
   }
 }
 
-@media only screen and (max-width: 864px) {  
+@media only screen and (max-width: 864px) {
+  
   .links {
     flex-direction: column;
     height: 300px;

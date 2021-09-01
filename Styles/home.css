@@ -49,10 +49,12 @@
 .imgbox {
     background-color: white;
     border-color: white;
-    border-width: 2px;
+    border-width: 1%;
     border-style: solid;
-    width: 100%;
+    width: 99%;
     margin: auto;
+    margin-right: 0px;
+
 }
 
 .images {
@@ -62,13 +64,13 @@
     margin-top: 10px;
 }
 
-.images>img {
+.images > img {
     width: 30%;
     height: 10%;
     margin: auto;
 }
 
-.images>div {
+.images > div {
     width: 29%;
     padding: 1%;
     padding-top: 0px;
@@ -92,6 +94,6 @@
 }
 
 .events embed{
-    width: 100vw;
+    width: 100%;
     height: 40vh;
 }
