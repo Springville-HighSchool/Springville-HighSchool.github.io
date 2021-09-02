@@ -13,3 +13,14 @@
 .topnav .dropdown {
     border-bottom: 0px solid black;
 }
+
+.currentevent {
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 10vh;
+}
+
+.currentevent embed {
+    width: 100%;
+    height: 100%;
+}
