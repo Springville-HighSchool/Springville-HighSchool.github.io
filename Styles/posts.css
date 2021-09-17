@@ -60,9 +60,10 @@
     width: 90vw;
     height: fit-content;
     margin: auto;
+    margin-bottom: 5vh;
 }
 
-.imgsubmission img{
+.imgsubmission img {
     width: 100%;
 }
 
