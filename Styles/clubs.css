@@ -15,3 +15,10 @@
 .topnav .dropdown {
     border-bottom: 0px solid black;
 }
+
+.clubs-vid img {
+    width: 70%;
+    height: auto;
+}
+
+.clubs-vid video {}
