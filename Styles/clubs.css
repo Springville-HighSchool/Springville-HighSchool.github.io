@@ -16,9 +16,8 @@
     border-bottom: 0px solid black;
 }
 
-.clubs-vid img {
+.clubs-vid video{
     width: 70%;
     height: auto;
+    margin: auto;
 }
-
-.clubs-vid video {}
