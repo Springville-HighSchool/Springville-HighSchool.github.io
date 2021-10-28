@@ -139,4 +139,10 @@ h6 {
 .curevent {
     background-image: linear-gradient(purple, orange);
     padding-bottom: 10px;
+    
+}
+
+.curevent img {
+    width: 80vw;
+    height: fit-content;
 }
