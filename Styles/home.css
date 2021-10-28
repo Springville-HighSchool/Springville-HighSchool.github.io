@@ -135,3 +135,8 @@ h6 {
     background-position: center;
     margin: auto;
 }
+
+.curevent {
+    background-image: linear-gradient(purple, orange);
+    padding-bottom: 10px;
+}

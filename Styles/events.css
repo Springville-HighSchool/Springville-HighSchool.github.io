@@ -1,3 +1,7 @@
+body {
+    background-image: linear-gradient(purple, orange);
+}
+
 .topnav .navspace > a {
     border-bottom: 0px solid black;
 }
@@ -16,7 +20,7 @@
 
 .currentevent {
     width: 100%;
-    height: 50vh;
+    height: fit-content;
     margin-bottom: 10vh;
 }
 
