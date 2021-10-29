@@ -1,11 +1,12 @@
 @media (max-width: 864px) {
     body {
-        background: url(../Imgs/backgroundmobile.jpg) !important;
-        background-size: contain !important;
-        background-position: top !important;
-        background-color: #21204b !important;
-        background-repeat: no-repeat !important;
+        background: url(../Imgs/backgroundmobile.jpg);
+        background-size: contain;
+        background-position: top;
+        background-color: #21204b;
+        background-repeat: no-repeat;
     }
+
 }
 
 @media (min-width: 864px) {
@@ -15,6 +16,25 @@
         background-position: center;
         background-attachment: fixed;
         background-repeat: no-repeat;
+    }
+
+    .skewed-theme {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: url(../Imgs/0040.jpg);
+        background-color: rgb(24, 24, 24);
+        background-size: 160%;
+        width: 100%;
+        height: 120%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        transform: skewY(6deg);
+        background-attachment: ;
+        background-position: center;
+        margin: auto;
     }
 }
 

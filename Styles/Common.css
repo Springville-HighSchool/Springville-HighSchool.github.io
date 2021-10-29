@@ -1,7 +1,8 @@
 /*event coloring*/
 body {
-    background-image: linear-gradient(purple, orange)!important;
+    background-image: linear-gradient(purple, orange) !important;
 }
+
 /*everything else*/
 body {
     text-align: center;
@@ -33,7 +34,7 @@ a {
     margin: auto;
 }
 
-.ytvids .titles > p{
+.ytvids .titles>p {
     text-align: center;
     width: 50%;
 }
