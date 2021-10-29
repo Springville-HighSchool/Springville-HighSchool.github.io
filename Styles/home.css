@@ -166,3 +166,20 @@ h6 {
     width: 80vw;
     height: 100%;
 }
+
+@media (min-width: 864px) {
+    .skewed-theme {
+        position: relative;
+        background-image: url(../Imgs/0040.jpg);
+        background-color: rgb(24, 24, 24);
+        background-size: 160%;
+        width: 100%;
+        height: 120%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        transform: skewY(6deg);
+        background-attachment: unset;
+        background-position: center;
+        margin: auto;
+    }
+}
