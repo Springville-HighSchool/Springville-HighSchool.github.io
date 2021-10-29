@@ -1,9 +1,3 @@
-/*event coloring*/
-body {
-    background-image: linear-gradient(purple, orange) !important;
-}
-
-/*everything else*/
 body {
     text-align: center;
     margin: 0px;
