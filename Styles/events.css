@@ -2,15 +2,17 @@ body {
     background-image: linear-gradient(purple, orange);
 }
 
-.topnav .navspace > a {
+.topnav .navspace>a {
     border-bottom: 0px solid black;
 }
 
-.topnav .navspace > a:hover, .topnav .navbar button:hover {
+.topnav .navspace>a:hover,
+.topnav .navbar button:hover {
     border-bottom: 4px solid black;
 }
 
-.topnav .navspace > a:hover, .topnav .dropdown:hover {
+.topnav .navspace>a:hover,
+.topnav .dropdown:hover {
     border-bottom: 4px solid black;
 }
 
@@ -26,5 +28,10 @@ body {
 
 .currentevent embed {
     width: 100%;
+    height: 100%;
+}
+
+.currentevent img {
+    width: 70vw;
     height: 100%;
 }
