@@ -56,6 +56,7 @@ h6 {
     width: 99%;
     margin: auto;
     margin-right: 0px;
+    margin-top: 20%;
 
 }
 
@@ -124,11 +125,10 @@ h6 {
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: url(../Imgs/0040.jpg);
     background-color: rgb(24, 24, 24);
     background-size: 160%;
     width: 100%;
-    height: 120%;
+    height: 140%;
     overflow: hidden;
     background-repeat: no-repeat;
     transform: skewY(6deg);
@@ -137,10 +137,14 @@ h6 {
     margin: auto;
 }
 
-.curevent {
-    background-image: linear-gradient(purple, orange);
-    padding-bottom: 10px;
-
+.skewed-theme video {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100%;
 }
 
 .curevent img {
