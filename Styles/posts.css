@@ -24,6 +24,12 @@
     }
 }
 
+@media (min-width: 1800px) {
+    .welc {
+        margin-bottom: 90vh !important;
+    }
+}
+
 .welc {
     margin-bottom: 60vh;
 }
