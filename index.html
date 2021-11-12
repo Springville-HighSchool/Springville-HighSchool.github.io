@@ -49,10 +49,10 @@
     </div>
     <div class="theme">
       <h2>This is this years theme</h2>
-      <p>click on this if you are on mobile <a href="Imgs/BringTheHeatSlomoSmol.mov">Theme</a></p>
+      <p>click on this if you are on mobile <Button onclick="playPause()" class="themeplay">Play or Pause</Button></p>
       <div class="skewed-theme-container">
         <div class="skewed-theme">
-          <video autoplay muted controls>
+          <video autoplay muted controls id="theme">
             <source src="Imgs/BringTheHeatSlomoSmol.mp4" type="video/mp4">
             <source src="Imgs/BringTheHeatSlomo.mov" type="video/mp4">
             <source src="Imgs/BringTheHeatSlomoSmol.webm" type="video/webm">
@@ -61,6 +61,16 @@
         </div>
       </div>
     </div>
+    <script>
+      var myVideo = document.getElementById("theme");
+
+      function playPause() {
+        if (myVideo.paused)
+          myVideo.play();
+        else
+          myVideo.pause();
+      }
+    </script>
     <div class="imgbox">
       <h2>Here you can see our students latest posts.</h2>
       <h4 class="recentphotostext">Recent photos</h4>

@@ -146,3 +146,10 @@ h6, p {
     width: 80vw;
     height: 100%;
 }
+
+.themeplay {
+    border: white;
+    background-color: white;
+    color: #e20000;
+    font-size: 15px;
+}
