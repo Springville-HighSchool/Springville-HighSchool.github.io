@@ -9,3 +9,85 @@
     padding-bottom: 10px;
 
 }*/
+/*christmas*/
+body {
+    background-color: #e4fff6;
+}
+
+.decor {
+    color: white;
+    position: absolute;
+    font-size: 80px;
+}
+
+#one {
+    position: absolute;
+    top: 10vh;
+    left: 20vw;
+    animation-name: snowflakesfall;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#two {
+    position: absolute;
+    top: 30vh;
+    left: 70vw;
+    animation-name: snowflakesfall;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#three {
+    position: absolute;
+    top: 90vh;
+    left: 60vw;
+    animation-name: snowflakesfall;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#four {
+    position: absolute;
+    top: 130vh;
+    left: 80vw;
+    animation-name: snowflakesfall;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#five {
+    position: absolute;
+    top: 50vh;
+    left: 10vw;
+    animation-name: snowflakesfall;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#six {
+    position: absolute;
+    top: 110vh;
+    left: 2vw;
+    animation-name: snowflakesfall;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes snowflakesfall {
+    from {
+        top: -40vh;
+        rotate: 0deg;
+    }
+
+    to {
+        top: 140vh;
+        rotate: 200deg;
+    }
+}
