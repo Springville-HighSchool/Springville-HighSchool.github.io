@@ -10,10 +10,6 @@
 
 }*/
 /*christmas*/
-body {
-    background-color: #e4fff6;
-}
-
 .decor {
     color: white;
     position: absolute;
@@ -87,7 +83,7 @@ body {
     }
 
     to {
-        top: 140vh;
-        rotate: 200deg;
+        top: 155vh;
+        rotate: 180deg;
     }
 }
