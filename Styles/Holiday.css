@@ -14,6 +14,7 @@
     color: white;
     position: absolute;
     font-size: 80px;
+    z-index: 0;
 }
 
 #one {
@@ -83,7 +84,7 @@
     }
 
     to {
-        top: 155vh;
+        top: 130vh;
         rotate: 180deg;
     }
 }
