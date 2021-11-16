@@ -78,13 +78,13 @@
 }
 
 @keyframes snowflakesfall {
-    from {
-        top: -40vh;
-        rotate: 0deg;
+    0% {
+        top: -170vh;
+        left: -80vw;
     }
 
-    to {
-        top: 130vh;
-        rotate: 180deg;
+    100% {
+
+        transform: translateX(100vw) translateY(100vh);
     }
 }
