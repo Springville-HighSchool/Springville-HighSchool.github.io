@@ -81,10 +81,17 @@
     0% {
         top: -100vh;
         rotate: 0deg;
+        color: white;
+    }
+
+    75% {
+        color: white;
     }
 
     100% {
         top: 160vh;
         rotate: 180deg;
+        color: transparent;
     }
+
 }
