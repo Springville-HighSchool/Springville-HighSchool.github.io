@@ -11,6 +11,10 @@
 }*/
 /*christmas*/
 .decor {
+    display: none;
+}
+/*
+.decor {
     color: white;
     position: absolute;
     font-size: 80px;
@@ -95,3 +99,4 @@
     }
 
 }
+*/
