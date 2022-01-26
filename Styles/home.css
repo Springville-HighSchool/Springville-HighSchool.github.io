@@ -7,6 +7,17 @@
         background-repeat: no-repeat;
     }
 
+    .layer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .curevent img {
+        width: 50% !important;
+        height: 100% !important;
+        margin: auto;
+        margin-bottom: 2vh;
+    }
 }
 
 @media (min-width: 864px) {
@@ -41,7 +52,8 @@ body {
 }
 
 .welc h2,
-h6, p {
+h6,
+p {
     margin: 40px;
 }
 
@@ -142,18 +154,18 @@ h6, p {
 }
 
 .skewed-theme video {
-    width: 100vw;
+    width: 100%;
     height: 100%;
 }
 
-.curevent {
-    width: 80vw;
-    margin: auto;
+.layer {
+    display: flex;
 }
 
 .curevent img {
-    width: 48%;
+    width: 45%;
     height: 100%;
+    margin: auto;
 }
 
 .themeplay {

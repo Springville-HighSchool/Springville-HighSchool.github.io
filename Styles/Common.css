@@ -40,3 +40,7 @@ a {
 iframe {
     height: 400px;
 }
+
+.embed {
+    width: 100vw;
+}
