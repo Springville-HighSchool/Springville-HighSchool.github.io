@@ -146,8 +146,13 @@ h6, p {
     height: 100%;
 }
 
+.curevent {
+    width: 80vw;
+    margin: auto;
+}
+
 .curevent img {
-    width: 48vw;
+    width: 48%;
     height: 100%;
 }
 
