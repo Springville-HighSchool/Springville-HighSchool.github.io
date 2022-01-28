@@ -1,4 +1,4 @@
-@media (max-width: 360px) {
+@media (max-width: 600px) {
     .curevent {
         display: flex;
         flex-direction: column !important;

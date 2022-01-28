@@ -1,4 +1,4 @@
-@media (max-width: 360px) {
+@media (max-width: 600px) {
     body {
         background: url(../Imgs/backgroundmobile.jpg);
         background-size: contain;
@@ -27,7 +27,7 @@
     }
 }
 
-@media (min-width: 360px) {
+@media (min-width: 600px) {
     body {
         background: url(../Imgs/background.jpg);
         background-size: cover;
