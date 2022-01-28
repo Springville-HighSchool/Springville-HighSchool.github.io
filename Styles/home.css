@@ -7,13 +7,20 @@
         background-repeat: no-repeat;
     }
 
-    .layer {
-        flex-direction: column;
+    .curevent {
+        display: flex;
+        flex-direction: column !important;
         width: 100%;
     }
 
+    .layer {
+        flex-direction: column;
+        width: 100% !important;
+        margin: auto;
+    }
+
     .curevent img {
-        width: 50% !important;
+        width: 60% !important;
         height: 100% !important;
         margin: auto;
         margin-bottom: 2vh;
@@ -158,12 +165,18 @@ p {
     height: 100%;
 }
 
-.layer {
+.curevent {
     display: flex;
 }
 
+.layer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
 .curevent img {
-    width: 45%;
+    width: 75%;
     height: 100%;
     margin: auto;
 }
