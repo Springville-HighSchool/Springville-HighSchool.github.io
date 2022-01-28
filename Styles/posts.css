@@ -1,4 +1,4 @@
-@media (max-width: 864px) {
+@media (max-width: 600px) {
     .imageposts {
         flex-direction: column;
     }
