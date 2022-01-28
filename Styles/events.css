@@ -1,3 +1,18 @@
+@media (max-width: 864px) {
+    .layer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .curevent img {
+        width: 70% !important;
+        height: 100% !important;
+        margin: auto;
+        margin-bottom: 2vh;
+    }
+
+}
+
 .topnav .navspace>a {
     border-bottom: 0px solid black;
 }
@@ -27,7 +42,12 @@
     height: 100%;
 }
 
-.currentevent img {
-    width: 48vw;
-    height: 30%;
+.layer {
+    display: flex;
+}
+
+.curevent img {
+    width: 45%;
+    height: 100%;
+    margin: auto;
 }
