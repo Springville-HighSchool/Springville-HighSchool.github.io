@@ -32,6 +32,15 @@
 
 .welc {
     margin-bottom: 60vh;
+    color: #e20000;
+}
+
+.links>.navspace>a {
+    color: #e20000;
+}
+
+.dropdown .dropbtn {
+    color: #e20000;
 }
 
 .bgwrapper {

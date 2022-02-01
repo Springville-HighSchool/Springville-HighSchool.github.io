@@ -8,7 +8,7 @@
     }
 
     .welc {
-        height: 75vh !important;
+        height: 65vh !important;
     }
 
     .curevent {
@@ -28,6 +28,12 @@
         height: 100% !important;
         margin: auto;
         margin-bottom: 2vh;
+    }
+
+    .welc h2,
+    h6,
+    p {
+        margin: 20px !important;
     }
 }
 
