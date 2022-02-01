@@ -72,12 +72,12 @@ p {
     text-align: left;
     margin: 0px 14px;
     padding-bottom: 10px;
-    width: 96.6%;
+    width: 96%;
 }
 
 .imgbox {
     background-color: white;
-    border-color: gray;
+    border-color: white;
     border-width: 1%;
     border-style: solid;
     width: 97%;
