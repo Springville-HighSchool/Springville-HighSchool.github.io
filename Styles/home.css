@@ -7,6 +7,10 @@
         background-repeat: no-repeat;
     }
 
+    .welc {
+        height: 75vh !important;
+    }
+
     .curevent {
         display: flex;
         flex-direction: column !important;
@@ -20,7 +24,7 @@
     }
 
     .curevent img {
-        width: 60% !important;
+        width: 95% !important;
         height: 100% !important;
         margin: auto;
         margin-bottom: 2vh;
