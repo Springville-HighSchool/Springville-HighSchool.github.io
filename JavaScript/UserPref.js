@@ -21,7 +21,7 @@ function Popup() {
     } else if (localStorage.ModePref === "Light") {
         document.getElementById("Popup").style.display = "none";
     } else {
-        document.getElementById("Popup").style.display = "show"
+        document.getElementById("Popup").style.display = "block"
     };
 };
 
