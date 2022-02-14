@@ -14,9 +14,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/7ce960fd0f.js" crossorigin="anonymous"></script>
+  <script src="JavaScript/UserPref.js"></script>
 </head>
 
-<body>
+<body onload="Popup();">
+  
+  <div class="Popup" id="Popup">
+    <h2>Do you prefer dark mode or light mode</h2>
+    <button class="dark" onclick="Dark()">Dark</button><button class="light" onclick="Light()">Light</button>
+  </div>
+
   <div class="decor">
     <i class="far fa-snowflake" id="one"></i>
     <i class="far fa-snowflake" id="two"></i>
@@ -34,7 +41,7 @@
         <div class="navspace"><a href="imagePage.html">Student posts</a></div>
         <div class="navspace"><a href="events.html">Events</a></div>
         <div class="navspace"><a href="Instagram.html">Instagram</a></div>
-        <div class="navspace"><a href="clubs.html">Clubs<i class="fa-solid fa-snowflake"></i></a></div>
+        <div class="navspace"><a href="clubs.html">Clubs</a></div>
         <div class="navspace">
           <div class="dropdown">
             <button class="dropbtn">Other <i class="fas fa-chevron-down"></i></button>
@@ -44,6 +51,7 @@
               <a href="events.html">Events</a>
               <a href="instagram.html">Instagram</a>
               <a href="clubs.html">Clubs</a>
+              <a onclick="ToggleDark()">Toggle dark</a>
             </div>
           </div>
         </div>
@@ -51,13 +59,13 @@
     </div>
     <!--end of navbar-->
   </div>
-  <div class="main">
+  <div class="main" id="ModeSwitch">
     <div class="desc">
       <h2>Hello and welcome to the Springville Red Devils student website!</h2>
     </div>
     <div class="theme">
       <h2>This is this years theme</h2>
-      <p><Button onclick="playPause()" class="themeplay">Play or Pause</Button></p>
+      <p><Button onclick="playPause()" class="themeplay" id="ModeSwitch2">Play or Pause</Button></p>
       <div class="skewed-theme-container">
         <div class="skewed-theme" id="skewed-theme">
           <video autoplay muted controls playsinline id="theme">
@@ -79,7 +87,7 @@
           myVideo.pause();
       }
     </script>
-    <div class="imgbox">
+    <div class="imgbox" id="ModeSwitch3">
       <h2>Here you can see our students latest posts.</h2>
       <h4 class="recentphotostext">Recent photos</h4>
       <div class="images">
@@ -135,6 +143,7 @@
                 <a href="events.html">Events</a>
                 <a href="Instagram.html">Instagram</a>
                 <a href="clubs.html">Clubs</a>
+                <a onclick="ToggleDark()">Toggle dark</a>
               </div>
             </div>
           </div>
@@ -163,6 +172,7 @@
         </div>
       </div>
       <div class="spacer280"></div>
+      <div id="DarkNav" style="display: none;"></div>
     </div>
     <!--end of bottom nav-->
 </body>

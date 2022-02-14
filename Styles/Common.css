@@ -5,6 +5,52 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.Popup {
+    width: 80%;
+    margin: auto;
+    top: 30vh;
+    left: 3.5vw;
+    background-color: rgba(255, 255, 255, 0.950);
+    padding: 100px 50px;
+    border-radius: 30px;
+    position: sticky;
+    display: none;
+}
+
+.Popup button {
+    width: 20vw;
+    height: 10vh;
+    font-size: larger;
+    margin: 10px;
+}
+
+.dark {
+    color: white;
+    background-color: Black;
+    border: none;
+}
+
+.light {
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.Dark {
+    background-color: black !important;
+    color: white !important;
+    border-color: black !important;
+}
+
+.NavFixDark .navspace>a:hover,
+.NavFixDark .navspace .dropdown:hover {
+    border-bottom: 4px solid white !important;
+}
+
+.ThemeFixDark {
+    background-color: rgba(70, 70, 70, 0.281) !important;
+}
+
 a {
     text-decoration: none;
 }

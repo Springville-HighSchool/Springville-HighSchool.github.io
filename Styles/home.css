@@ -1,3 +1,8 @@
+:root {
+    --bgColor:white;
+    --TextColor:black;
+}
+
 @media (max-width: 600px) {
     body {
         background: url(../Imgs/backgroundmobile.jpg);
@@ -52,7 +57,7 @@ body {
 }
 
 .main {
-    background-color: white;
+    background-color: var(--bgColor);
 }
 
 .welc {

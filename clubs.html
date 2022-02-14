@@ -4,6 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
     <title>Clubs</title>
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="Styles/dropdown.css" type="text/css">
     <link rel="stylesheet" href="Styles/Common.css" type="text/css">
     <link rel="stylesheet" href="Styles/clubs.css" type="text/css">
@@ -13,9 +14,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7ce960fd0f.js" crossorigin="anonymous"></script>
+    <script src="JavaScript/UserPref.js"></script>
 </head>
 
-<body>
+<body onload="Popup()" id="ModeSwitch">
+
+    <div class="Popup" id="Popup">
+        <h2>Do you prefer dark mode or light mode</h2>
+        <button class="dark" onclick="Dark()">Dark</button><button class="light" onclick="Light()">Light</button>
+    </div>
+
     <div class="decor">
         <i class="far fa-snowflake" id="one"></i>
         <i class="far fa-snowflake" id="two"></i>
@@ -44,6 +52,7 @@
                                 <a href="events.html">Events</a>
                                 <a href="instagram.html">Instagram</a>
                                 <a href="clubs.html">Clubs</a>
+                                <a onclick="ToggleDark()">Toggle dark</a>
                             </div>
                         </div>
                     </div>
@@ -374,6 +383,7 @@
                                 <a href="events.html">Events</a>
                                 <a href="Instagram.html">Instagram</a>
                                 <a href="clubs.html">Clubs</a>
+                                <a onclick="ToggleDark()">Toggle dark</a>
                             </div>
                         </div>
                     </div>
