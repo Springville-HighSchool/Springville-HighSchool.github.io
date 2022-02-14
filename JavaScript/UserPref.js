@@ -11,7 +11,6 @@ function ToggleDark() {
 
 function Popup() {
     if (localStorage.ModePref === "Dark") {
-        // add the code for dark mode here
         document.getElementById("Popup").style.display = "none";
         document.getElementById("ModeSwitch").className += ' Dark';
         document.getElementById("ModeSwitch2").className += ' Dark';
