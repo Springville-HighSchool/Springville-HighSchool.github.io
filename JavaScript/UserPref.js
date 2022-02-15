@@ -17,6 +17,7 @@ function Popup() {
         document.getElementById("ModeSwitch3").className += ' Dark';
         document.getElementById("DarkNav").className += ' NavFixDark';
         document.getElementById("skewed-theme").className += ' ThemeFixDark';
+        document.getElementById("")
     } else if (localStorage.ModePref === "Light") {
         document.getElementById("Popup").style.display = "none";
     } else {
