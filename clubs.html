@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
     <title>Clubs</title>
-<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="Styles/dropdown.css" type="text/css">
     <link rel="stylesheet" href="Styles/Common.css" type="text/css">
     <link rel="stylesheet" href="Styles/clubs.css" type="text/css">
@@ -19,11 +19,11 @@
 
 <body onload="Popup()" id="ModeSwitch">
 
-  <div class="Popup" id="Popup">
-      <h2>Do you prefer dark mode or light mode</h2>
-      <button class="dark" onclick="Dark()">Dark</button><button class="light" onclick="Light()">Light</button>
-      <h3>You can change this any time in the "other" dropdown menu.</h3>
-  </div>
+    <div class="Popup" id="Popup">
+        <h2>Do you prefer dark mode or light mode</h2>
+        <button class="dark" onclick="Dark()">Dark</button><button class="light" onclick="Light()">Light</button>
+        <h3>You can change this any time in the "other" dropdown menu.</h3>
+    </div>
 
     <div class="decor">
         <i class="far fa-snowflake" id="one"></i>
@@ -38,7 +38,7 @@
         <!--start of navbar-->
         <div class="topnav">
             <div class="navbar">
-                <div class="links">
+                <div class="links" id="DarkNav">
                     <div class="navspace"><a href="index.html">Home</a></div>
                     <div class="navspace"><a href="imagePage.html">Student posts</a></div>
                     <div class="navspace"><a href="events.html">Events</a></div>
@@ -413,6 +413,9 @@
                 </div>
             </div>
             <div class="spacer280"></div>
+            <div id="ModeSwitch2" style="display: none;"></div>
+            <div id="ModeSwitch3" style="display: none;"></div>
+            <div id="skewed-theme" style="display: none;"></div>
         </div>
         <!--end of bottom nav-->
 </body>

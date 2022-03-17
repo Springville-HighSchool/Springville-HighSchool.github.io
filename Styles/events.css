@@ -64,3 +64,37 @@
     height: 100%;
     margin: auto;
 }
+
+.stucocand {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.stucoflex {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.stucolayer {
+    width: 45%;
+    height: 100%;
+    margin: auto;
+}
+
+.cands {
+    box-shadow: 3px 6px 10px 1px black;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
+@media (max-width:750px) {
+    .stucoflex {
+        flex-direction: column;
+    }
+    .stucolayer {
+        width: 95% !important;
+    }
+}

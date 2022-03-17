@@ -101,14 +101,16 @@
   height: 33px;
   width: fit-content;
   transition: 0.2s;
-  border-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 
 .navspace>a:hover,
 .dropdown:hover {
   border-top: 0px transparent solid;
   border-bottom: 4px solid white;
-  border-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 
 .dropdown-content {
@@ -183,7 +185,8 @@
 
 .text:hover {
   border-bottom: white 4px solid;
-  border-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 
 .bottomnav {
