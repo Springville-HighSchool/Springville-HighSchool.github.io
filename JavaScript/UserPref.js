@@ -37,3 +37,12 @@ function Light() {
     Popup();
     document.location.reload(true);
 };
+
+function Reset() {
+    localStorage.ModePref = "none";
+    document.location.reload(true);
+}
+
+function stopscrollprompt() {
+    document.getElementById("scrollplease").style.display = "none";
+};
