@@ -57,6 +57,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin: auto;
 }
 
 .curevent img {
@@ -69,6 +70,7 @@
     margin: auto;
     height: 100%;
     width: 100%;
+    margin-bottom: 20px;
     display: none;
 }
 
@@ -87,14 +89,54 @@
 .cands {
     box-shadow: 3px 6px 10px 1px black;
     border-radius: 10px;
-    padding-top: 15px;
+    padding: 4% 2%;
+    background-color: white;
+    color: black;
+}
+
+.cands img {
+    width: 95%;
+    height: auto;
 }
 
 @media (max-width:750px) {
     .stucoflex {
         flex-direction: column;
     }
+
     .stucolayer {
         width: 95% !important;
     }
+}
+
+.curevents {
+    width: 100vw;
+    height: 90vh;
+    background-image: url(../Imgs/curevents/stars.jpeg);
+    overflow: hidden;
+    display: none;
+}
+
+.queststar {
+    position: relative;
+    margin: auto;
+    height: 150px;
+    width: 100vw;
+    padding: 10px;
+    perspective: 300px;
+    width: 50%;
+}
+
+.queststarperspect {
+    padding: 50px;
+    position: absolute;
+    transform: rotateX(45deg) translateY(400px);
+    animation: startext 35s infinite linear;
+    color: #FFE81F;
+}
+
+@keyframes startext {
+    90% {opacity: 80%;}
+
+    100% {transform: translateY(-300px) translateZ(-100px); opacity: 0%; perspective: 300px;}
 }
