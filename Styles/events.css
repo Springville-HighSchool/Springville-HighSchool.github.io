@@ -114,7 +114,6 @@
     height: 90vh;
     background-image: url(../Imgs/curevents/stars.jpeg);
     overflow: hidden;
-    display: none;
 }
 
 .queststar {
@@ -123,20 +122,55 @@
     height: 150px;
     width: 100vw;
     padding: 10px;
-    perspective: 300px;
-    width: 50%;
+    perspective: 200px;
 }
 
 .queststarperspect {
     padding: 50px;
     position: absolute;
-    transform: rotateX(45deg) translateY(400px);
-    animation: startext 35s infinite linear;
+    transform: rotateX(45deg) translateY(17vh);
+    animation: startext 40s infinite linear;
     color: #FFE81F;
+    position: relative;
+}
+
+.opening {
+    width: 60vw;
+    text-align: center;
+    margin: auto;
+}
+
+.iconic {
+    padding-top: 35vh;
+    color: #4bd5ee;
+    margin: auto;
+    font-size: 40px;
+    opacity: 80%;
+    animation: startexts 40s infinite linear;
 }
 
 @keyframes startext {
-    90% {opacity: 80%;}
+    90% {
+        opacity: 70%;
+    }
 
-    100% {transform: translateY(-300px) translateZ(-100px); opacity: 0%; perspective: 300px;}
+    100% {
+        transform: translateY(-63vh) translateZ(-100px);
+        opacity: 0%;
+        perspective: 200px;
+    }
+}
+
+@keyframes startexts {
+    7% {
+        opacity: 80%;
+    }
+
+    12% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
 }
