@@ -155,7 +155,7 @@
     }
 
     100% {
-        transform: translateY(-63vh) translateZ(-100px);
+        transform: translateY(-70vh) translateZ(-100px);
         opacity: 0%;
         perspective: 200px;
     }
