@@ -22,6 +22,9 @@
     .imageposts .sidebysidetext {
         width: 100% !important;
     }
+    .images {
+        width: 100% !important;
+    }
 }
 
 @media (min-width: 1800px) {

@@ -71,7 +71,6 @@
     height: 100%;
     width: 100%;
     margin-bottom: 20px;
-    display: none;
 }
 
 .stucoflex {
@@ -92,6 +91,7 @@
     padding: 4% 2%;
     background-color: white;
     color: black;
+    margin-bottom: 20px;
 }
 
 .cands img {
@@ -128,8 +128,8 @@
 .queststarperspect {
     padding: 50px;
     position: absolute;
-    transform: rotateX(45deg) translateY(17vh);
     animation: startext 40s infinite linear;
+    transform: rotateX(45deg) translateY(25vh);
     color: #FFE81F;
     position: relative;
 }
@@ -144,12 +144,20 @@
     padding-top: 35vh;
     color: #4bd5ee;
     margin: auto;
-    font-size: 40px;
+    font-size: 32px;
     opacity: 80%;
     animation: startexts 40s infinite linear;
 }
 
 @keyframes startext {
+    0 {
+        transform: rotateX(45deg) translateY(25vh);
+    }
+
+    10% {
+        transform: rotateX(45deg) translateY(25vh);
+    }
+
     90% {
         opacity: 70%;
     }
