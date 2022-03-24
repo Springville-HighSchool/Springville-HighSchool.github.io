@@ -1,3 +1,49 @@
-.spacer280{
-    height: 280px;
+@media (max-width: 750px) {
+  .ScreenHelpers {
+    display: none;
   }
+}
+
+.spacer1 {
+  height: 1px;
+}
+
+.spacer2 {
+  height: 2px;
+}
+
+.spacer4 {
+  height: 4px;
+}
+
+.spacer8 {
+  height: 8px;
+}
+
+.spacer16 {
+  height: 16px;
+}
+
+.spacer32 {
+  height: 32px;
+}
+
+.spacer64 {
+  height: 64px;
+}
+
+.spacer128 {
+  height: 128px;
+}
+
+.spacer256 {
+  height: 256px;
+}
+
+.spacer512 {
+  height: 512px;
+}
+
+.spacer1024 {
+  height: 1024px;
+}
