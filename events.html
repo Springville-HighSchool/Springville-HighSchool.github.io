@@ -18,7 +18,7 @@
   <script src="JavaScript/UserPref.js"></script>
 </head>
 
-<body onload="Popup()" id="ModeSwitch">
+<body onload="Popup(); user()" id="ModeSwitch">
 
   <div class="Popup" id="Popup">
     <h2>Do you prefer dark mode or light mode</h2>
@@ -58,6 +58,7 @@
                 <a href="instagram.html">Instagram</a>
                 <a href="clubs.html">Clubs</a>
                 <a onclick="ToggleDark()">Toggle dark</a>
+                <a onclick="setuser()">hello</a>
               </div>
             </div>
           </div>
@@ -286,7 +287,7 @@
         </div>
       </div>
     </div>
-    <iframe class="stucosurv"
+    <iframe class="stucosurv" id="ModOnly"
       src="https://docs.google.com/forms/d/e/1FAIpQLSdX8aQvubn4-rcl1W-2hbdvBnPXinSPWy0REShOk4fW2gl7AA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
   <div class="curevent">

@@ -46,3 +46,16 @@ function Reset() {
 function stopscrollprompt() {
     document.getElementById("scrollplease").style.display = "none";
 };
+
+function user() {
+    if (localStorage.Mod === "Easton") {
+        document.getElementById("ModOnly").style.display = "block";
+    } else {
+        document.getElementById("ModOnly").style.display = "none";
+    }
+};
+
+function setuser() {
+    localStorage.Mod = "Easton";
+    document.location.reload(true);
+};
