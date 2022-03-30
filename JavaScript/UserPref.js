@@ -54,8 +54,3 @@ function user() {
         document.getElementById("ModOnly").style.display = "none";
     }
 };
-
-function setuser() {
-    localStorage.Mod = "Easton";
-    document.location.reload(true);
-};
