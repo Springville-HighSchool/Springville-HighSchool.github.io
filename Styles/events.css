@@ -114,7 +114,6 @@
     width: 95vw;
     height: 140vh;
     margin: auto;
-    display: none;
 }
 
 @media (min-width: 750px) {
