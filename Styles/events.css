@@ -110,16 +110,20 @@
     }
 }
 
+.promRoyal{
+    height: 170vh;
+}
+
 .promRoyal iframe {
     width: 95vw;
-    height: 140vh;
+    height: 100%;
     margin: auto;
 }
 
 @media (min-width: 750px) {
     .promRoyal {
         width: 95vw;
-        height: 175vh !important;
+        height: 240vh !important;
         margin: auto;
     }
 }
