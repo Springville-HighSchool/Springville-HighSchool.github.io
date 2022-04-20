@@ -91,3 +91,32 @@ iframe {
 .embed {
     width: 100vw;
 }
+
+.scrollplease {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50vh;
+    animation-name: scrollpls;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    opacity: 0%;
+
+}
+
+@keyframes scrollpls {
+    0% {
+        margin-top: 40vh;
+        opacity: 0%;
+    }
+
+    50% {
+        margin-top: 35vh;
+        opacity: 100%;
+    }
+
+    100% {
+        margin-top: 90vh;
+        opacity: 0%;
+    }
+}
