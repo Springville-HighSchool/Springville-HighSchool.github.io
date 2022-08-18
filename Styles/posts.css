@@ -34,7 +34,7 @@
 }
 
 .welc {
-    margin-bottom: 60vh;
+    margin-bottom: 40vh;
     color: #e20000;
     height: 10vh;
 }
@@ -77,7 +77,7 @@
 
 .imgsubmission {
     width: 90vw;
-    height: fit-content;
+    height: 100%;
     margin: auto;
     margin-bottom: 5vh;
 }

@@ -101,6 +101,7 @@ iframe {
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
     opacity: 0%;
+    display: none;
 
 }
 
