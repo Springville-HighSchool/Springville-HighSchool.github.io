@@ -42,7 +42,7 @@
         <div class="navspace"><a href="imagePage.html">Student posts</a></div>
         <div class="navspace"><a href="events.html">Events</a></div>
         <div class="navspace"><a href="Instagram.html">Instagram</a></div>
-        <div class="navspace"><a href="clubs.html">Clubs</a></div>
+        <div class="navspace" style="display: none;"><a href="clubs.html">Clubs</a></div>
         <div class="navspace">
           <div class="dropdown">
             <button class="dropbtn">Other <i class="fas fa-chevron-down"></i></button>
@@ -51,7 +51,7 @@
               <a href="imagePage.html">Student posts</a>
               <a href="events.html">Events</a>
               <a href="instagram.html">Instagram</a>
-              <a href="clubs.html">Clubs</a>
+              <a href="clubs.html" style="display: none;">Clubs</a>
               <a onclick="ToggleDark()">Toggle dark</a>
             </div>
           </div>
@@ -68,19 +68,15 @@
     <div class="desc">
       <h2>Hello and welcome to the Springville Red Devils student website!</h2>
     </div>
-    <div class="theme">
+    <div class="theme" style="display:one;">
       <h2>This is this years theme</h2>
-      <p><Button onclick="playPause()" class="themeplay" id="ModeSwitch2">Play or Pause</Button></p>
-      <div class="skewed-theme-container">
-        <div class="skewed-theme" id="skewed-theme">
-          <video autoplay muted controls playsinline id="theme">
+      <p><Button style="display:none;" onclick="playPause()" class="themeplay" id="ModeSwitch2">Play or Pause</Button></p>
+          <video autoplay muted playsinline id="theme">
             <source src="Imgs/BringTheHeatSlomoSmol.mp4" type="video/mp4" />
             <source src="Imgs/BringTheHeatSlomoSmol.ogv" type="video/ogg" />
             <source src="Imgs/BringTheHeatSlomo.mov" type="video/mp4">
             <source src="Imgs/BringTheHeatSlomoSmol.webm" type="video/webm">
           </video>
-        </div>
-      </div>
     </div>
     <script>
       var myVideo = document.getElementById("theme");
@@ -96,48 +92,24 @@
       <h2>Here you can see our students latest posts.</h2>
       <h4 class="recentphotostext">Recent photos</h4>
       <div class="images">
-        <img src="Imgs/Student-posts/20220326_120612.jpg" alt="">
-        <img src="Imgs/Student-posts/20220326_092554.jpg" alt="">
-        <img src="Imgs/Student-posts/IMG_0177.jpg" alt="">
+        <img src="Imgs/Student-posts/" alt="None Right Now">
+        <img src="Imgs/Student-posts/" alt="None Right Now">
+        <img src="Imgs/Student-posts/" alt="None Right Now">
       </div>
       <div class="images">
         <div>
-          Burning of the s <br> <a href="imagePage.html#1">more on this post</a>
+          None <br> <a href="imagePage.html#1">more on this post</a>
         </div>
         <div>
-          Class fair <br> <a href="imagePage.html#2">more on this post</a>
+          None <br> <a href="imagePage.html#2">more on this post</a>
         </div>
         <div>
-          Drama Workshops <br> <a href="imagePage.html#3">more on this post</a>
+          None <br> <a href="imagePage.html#3">more on this post</a>
         </div>
       </div>
     </div>
     <div class="events">
-      <h2>And here you can see the upcoming events</h2>
-      <div class="curevent">
-        <div class="layer">
-          <img
-            src="https://curator-assets.b-cdn.net/b3b8dcf7-b2d3-4405-abfb-a1463c5b134b/259260902.jpg?width=480&quality=75"
-            alt="">
-          <img
-            src="https://curator-assets.b-cdn.net/b3b8dcf7-b2d3-4405-abfb-a1463c5b134b/259821922.jpg?width=480&quality=75"
-            alt="">
-          <img
-            src="https://curator-assets.b-cdn.net/b3b8dcf7-b2d3-4405-abfb-a1463c5b134b/257624118.jpg?width=480&quality=75"
-            alt="">
-        </div>
-        <div class="layer">
-          <img
-            src="https://curator-assets.b-cdn.net/b3b8dcf7-b2d3-4405-abfb-a1463c5b134b/259815179.jpg?width=480&quality=75"
-            alt="">
-          <img
-            src="https://curator-assets.b-cdn.net/b3b8dcf7-b2d3-4405-abfb-a1463c5b134b/259291412.jpg?width=480&quality=75"
-            alt="">
-          <img
-            src="https://curator-assets.b-cdn.net/b3b8dcf7-b2d3-4405-abfb-a1463c5b134b/258720173.jpg?width=480&quality=75"
-            alt="">
-        </div>
-      </div>
+      <h2>And here you can see the Calendar.</h2>
       <embed
         src="https://calendar.google.com/calendar/u/0/embed?title=Springville+High+School&height=600&wkst=1&bgcolor=%23ffffff&src=nebo.edu_6t9q91pcf2jk9he74d02b0u28o@group.calendar.google.com&color=%23865A5A&src=en.usa%23holiday@group.v.calendar.google.com&color=%23333333&src=nebo.edu_s7lmikuagi5isu00a7290e96bs@group.calendar.google.com&color=%23000000&src=nebo.edu_t24944r2cgkkrqp66aof6dph0c@group.calendar.google.com&color=%23711616&src=nebo.edu_3qq5gp7fldd5okop4d6bp5m87g@group.calendar.google.com&color=%23060D5E&ctz=America/Denver">
     </div>
@@ -149,7 +121,7 @@
           <div class="navspace"><a href="imagePage.html">Student posts</a></div>
           <div class="navspace"><a href="events.html">Events</a></div>
           <div class="navspace"><a href="Instagram.html">Instagram</a></div>
-          <div class="navspace"><a href="clubs.html">Clubs</a></div>
+          <div class="navspace" style="display: none;"><a href="clubs.html">Clubs</a></div>
           <div class="navspace">
             <div class="dropdown">
               <button class="dropbtn">Other <i class="fas fa-chevron-down"></i></button>
@@ -158,7 +130,7 @@
                 <a href="imagePage.html">Student posts</a>
                 <a href="events.html">Events</a>
                 <a href="Instagram.html">Instagram</a>
-                <a href="clubs.html">Clubs</a>
+                <a href="clubs.html" style="display: none;">Clubs</a>
                 <a onclick="ToggleDark()">Toggle dark</a>
               </div>
             </div>
