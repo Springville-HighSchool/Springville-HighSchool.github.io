@@ -197,10 +197,14 @@ p {
 }
 
 .themeplay {
-    border: white;
-    background-color: white;
+    background-color: transparent;
+    border: none;
     color: #e20000;
     font-size: 15px;
+}
+
+.themeplay:hover {
+    color: #860000;
 }
 
 video {
