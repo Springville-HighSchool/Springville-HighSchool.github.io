@@ -27,10 +27,10 @@ body {
 
 .button {
     width: 50vw;
-    height: 10vh;
+    height: auto;
     font-size: larger;
     margin: 10px;
-    padding: auto;
+    padding: 10px;
     border-width: 0;
     background-color: grey;
     border-radius: 10px;
