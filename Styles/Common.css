@@ -30,6 +30,7 @@ body {
     height: 10vh;
     font-size: larger;
     margin: 10px;
+    padding: auto;
     border-width: 0;
     background-color: grey;
     border-radius: 10px;
