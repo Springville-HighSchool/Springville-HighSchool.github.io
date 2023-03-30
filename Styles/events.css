@@ -69,14 +69,18 @@
 .stucocand {
     margin: auto;
     height: 100%;
-    width: 100%;
+    width: 90%;
     margin-bottom: 20px;
+    display: flex;
 }
 
 .stucoflex {
     display: flex;
     height: 100%;
+    width: 100%;
+    margin: auto;
     justify-content: space-around;
+    flex-direction: column;
 }
 
 .stucolayer {
@@ -93,6 +97,11 @@
     background-color: white;
     color: black;
     margin-bottom: 20px;
+    width: 80%;
+}
+
+.cands p {
+    text-align: left;
 }
 
 .cands img {
